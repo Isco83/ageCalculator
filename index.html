@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="[Poppins](https://fonts.google.com/specimen/Poppins)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,26 +25,31 @@
       <h1>AGE CALCULATOR</h1>
     </div>
 
-    <div class="row g-3">
+    <div class="row g-3 justify-content-between mb-4">
 
-      <div class="col-md-4">
+      <div class="col-md-3">
         <label for="validationServer01" class="form-label">DAY</label>
-        <input type="number" class="form-control is-valid" id="validationServer01" placeholder="DD" value="" required>
+        <input type="number" class="form-control is-valid" id="day" placeholder="DD" min="1" max="31">
         <div class="valid-feedback">Looks good!</div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-3">
         <label for="validationServer01" class="form-label">MOUNHT</label>
-        <input type="number" class="form-control is-valid" id="validationServer01" placeholder="MM" value="" required>
+        <input type="number" class="form-control is-valid" id="mounht" placeholder="MM" min="1" max="12">
         <div class="valid-feedback">Looks good!</div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-3">
         <label for="validationServer01" class="form-label">YEAR</label>
-        <input type="number" class="form-control is-valid" id="validationServer01" placeholder="YY" value="" required>
+        <input type="number" class="form-control is-valid" id="year" placeholder="YY" min="1900" max="9999">
         <div class="valid-feedback">Looks good!</div>
       </div>
+
+      <button class="col-md-3" onclick="calcularEdad()" type="button" id="resultado"><img src="./assets/images/icon-arrow.svg" alt="" sizes="" srcset=""></button>
+
     </div>
+
+    
 
     <div class="row flex-column align-items-center">
 
@@ -80,6 +84,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"></script>
+    <script src="./main.js"></script>  
 </body>
 
 </html>

@@ -32,3 +32,10 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 
 .cajainput::placeholder { color: rgb(126, 72, 197); }
+
+#resultado {
+    background-color: #bd50bd;
+    border: transparent;
+    border-radius: 100px;
+    width: 7%;
+}
