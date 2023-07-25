@@ -19,7 +19,7 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     font-style: italic;
 }
 
-.cajainput{
+.cajainput_YY {
     background-color: transparent;
     color: black;
     font-size: 6rem;
@@ -31,11 +31,49 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     
 }
 
-.cajainput::placeholder { color: rgb(126, 72, 197); }
+.cajainput_MM {
+    background-color: transparent;
+    color: black;
+    font-size: 6rem;
+    font-weight: 800;
+    width: 24%;
+    border-color: transparent;
+    font-family: 'Poppins';
+    color: purple;    
+}
 
-#resultado {
-    background-color: #bd50bd;
-    border: transparent;
-    border-radius: 100px;
-    width: 7%;
+.cajainput_DD {
+    background-color: transparent;
+    color: black;
+    font-size: 6rem;
+    font-weight: 800;
+    width: 24%;
+    border-color: transparent;
+    font-family: 'Poppins';
+    color: purple;
+    
+}
+
+.cajainput_YY::placeholder { color: rgb(126, 72, 197); }
+.cajainput_DD::placeholder { color: rgb(126, 72, 197); }
+.cajainput_MM::placeholder { color: rgb(126, 72, 197); }
+
+.submit_circle {
+    display: flex;
+    align-items: center;
+}
+
+.submit_circle hr{
+    width: 100%;
+}
+
+.submit_circle .submit_btn {
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: rgb(126, 72, 197);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
