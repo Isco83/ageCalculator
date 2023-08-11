@@ -24,25 +24,27 @@
     <div class="d-flex justify-content-center mb-4">
       <h1>AGE CALCULATOR</h1>
     </div>
+
+    <!-- INPUTS -->
     <form action="">
       <div class="row g-3 justify-content-between mb-4">
 
         <div class="col-md-3">
           <label for="validationServer01" class="form-label">DAY</label>
           <input type="number" class="form-control is-valid" id="day" placeholder="DD" min="1" max="31">
-          <div class="valid-feedback">Looks good!</div>
+          <div class="letras"></div>
         </div>
 
         <div class="col-md-3">
           <label for="validationServer01" class="form-label">MOUNHT</label>
           <input type="number" class="form-control is-valid" id="mounht" placeholder="MM" min="1" max="12">
-          <div class="valid-feedback">Looks good!</div>
+          <div class="letras"></div>
         </div>
 
         <div class="col-md-3">
           <label for="validationServer01" class="form-label">YEAR</label>
           <input type="number" class="form-control is-valid" id="year" placeholder="YY" min="1900" max="9999">
-          <div class="valid-feedback">Looks good!</div>
+          <div class="letras"></div>
         </div>
       </div>
 
@@ -53,30 +55,16 @@
       </div>
     </form>
 
+<!-- OUTPUTS -->
 
 
+    <div class="row ">
+      <div class="output">
 
-    <div class="row flex-column align-items-center">
-
-      <div class="col-md-6 d-flex">
-        <input type="number" class="cajainput_YY" id="validationCustom02" required placeholder="--">
-        <div class="col YMD">years</div>
-      </div>
-
-
-
-      <div class="col-md-6 d-flex">
-        <input type="number" class="cajainput_MM" id="validationCustom02" required placeholder="--">
-        <div class="col YMD">months</div>
-      </div>
-
-
-
-      <div class="col-md-6 d-flex">
-        <input type="number" class="cajainput_DD" id="validationCustom02" required placeholder="--">
-        <div class="col YMD">days</div>
-      </div>
-
+      <h1><span id="YY">--</span>Years</h1>
+      <h1><span id="MM">--</span>Mounths</h1>
+      <h1><span id="DD">--</span>Days</h1>
+    </div>
     </div>
 
 

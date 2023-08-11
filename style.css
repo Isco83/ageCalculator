@@ -77,3 +77,18 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     align-items: center;
     justify-content: center;
 }
+
+.output h1{
+    font-size: 5rem;
+    font-weight: 800;
+    font-style: italic;
+    height: fit-content;
+}
+
+.output span{
+    color: rgb(126, 72, 197);
+}
+
+.letras {
+    color: red;
+}
